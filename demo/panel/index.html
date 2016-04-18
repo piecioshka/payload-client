@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Panel - Payload Client</title>
+
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css"/>
+
+    <script src="../../node_modules/zepto/dist/zepto.min.js"></script>
+    <script src="../../dist/client.js"></script>
+    <script src="scripts/payload-panel.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <h1 class="panel-heading">
+            Payload Client <small>Panel</small>
+        </h1>
+
+        <p class="summary container">
+            <button class="action-clear-results btn btn-primary">
+                <i class="glyphicon glyphicon-trash"></i> Clear results
+            </button>
+            <button class="action-filter-error btn btn-danger">
+                Errors: <span class="number-errors badge">0</span>
+            </button>
+            <button class="action-filter-success btn btn-success">
+                Success: <span class="number-successes badge">0</span>
+            </button>
+            <button class="action-remove-filter btn btn-info">
+                <i class="glyphicon glyphicon-remove-sign"></i> Remove filter
+            </button>
+        </p>
+
+        <div class="col-md-12">
+            <table class="table table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Type</th>
+                        <th>Test Case</th>
+                        <th>Message</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
