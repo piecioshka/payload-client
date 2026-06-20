@@ -34,3 +34,7 @@ Przykład takiego modułu jest dostępny w pliku
 `demo/app/scripts/payloads/example.payload.js`.
 
 Nazwa payload-u musi być zakończona wyrazem `Payload`, np. `ExamplePayload`.
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
